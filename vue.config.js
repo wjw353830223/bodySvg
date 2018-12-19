@@ -1,3 +1,6 @@
+const autoprefixer = require('autoprefixer')
+const pxtorem = require('postcss-pxtorem')
+
 module.exports = {
   // 部署生产环境和开发环境下的URL。
   // 默认情况下，Vue CLI 会假设你的应用是被部署在一个域名的根路径上
@@ -40,12 +43,17 @@ module.exports = {
     modules: false,
     extract: true,
     sourceMap: false,
-    loaderOptions: {
-      css: {
-        // options here will be passed to css-loader
-      },
-      postcss: {
-        // options here will be passed to postcss-loader
+    css: {
+      loaderOptions: {
+        postcss: {
+          plugins: [
+            autoprefixer(),
+            pxtorem({
+              rootValue: 75.0,
+              propList: ['*']
+            })
+          ]
+        }
       }
     }
   },
