@@ -39,24 +39,24 @@ module.exports = {
   //extract true在生产中，false在开发中,是否将组件中的CSS提取到独立的CSS文件中（而不是在JavaScript中内联并动态注入,在开发模式下禁用提取CSS，因为它与CSS热重新加载不兼容
   //sourceMap是否为CSS启用源映射。将此设置为true可能会影响构建性能
   //将选项传递给与CSS相关的加载器
+
   css: {
     modules: false,
     extract: true,
     sourceMap: false,
-    css: {
-      loaderOptions: {
-        postcss: {
-          plugins: [
-            autoprefixer(),
-            pxtorem({
-              rootValue: 75.0,
-              propList: ['*']
-            })
-          ]
-        }
+    loaderOptions: {
+      postcss: {
+        plugins: [
+          autoprefixer(),
+          pxtorem({
+            rootValue: 75.0,
+            propList: ['*']
+          })
+        ]
       }
     }
   },
+
 
   // 它支持webPack-dev-server的所有选项
   devServer: {
