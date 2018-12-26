@@ -28,7 +28,7 @@
       display: none;
     }
 
-    svg#full-body .layer-front-1.male {
+    svg#full-body .layer-back-1.male {
       display: block;
     }
 
@@ -41,20 +41,17 @@
 </head>
 
 <body>
-  <svg id="full-body" x="0px" y="0px" viewBox="0 0 310 385" style="enable-background:new 0 0 110 385" ng-style="vm.bodyImage.css"
-    xml:space="preserve" ng-class="vm.bodyImage.getParentClass()" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    class="zoom-m-front-0 head-m-front-0 neck-m-front-0 chest-m-front-0 arm-right-m-front-0 arm-left-m-front-0 abdomen-m-front-0 pelvis-m-front-0 leg-left-m-front-0 leg-right-m-front-0 skin-m-front-0 general-m-front-0">
-    <image xlink:href="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/symptom_checker_beta/assets/front-m.png"
-      ng-attr-xlink:href="{{vm.trustSrc(vm.bodyImage.getBodyImage('front'))}}" height="100%" width="100%" x="0" y="0"
-      class="body-bg-img" ng-show="vm.bodyImage.isFront" aria-hidden="false"></image>
+  <svg id="full-body" x="0px" y="0px" viewBox="0 0 310 385" style="" ng-style="vm.bodyImage.css" xml:space="preserve"
+    ng-class="vm.bodyImage.getParentClass()" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    class="zoom-f-back-0 head-f-back-0 neck-f-back-0 back-f-back-0 arm-right-f-back-0 arm-left-f-back-0 buttock-f-back-0 leg-right-f-back-0 leg-left-f-back-0 skin-f-back-0 general-f-back-0">
     <image xlink:href="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/symptom_checker_beta/assets/back-m.png"
-      ng-attr-xlink:href="{{vm.trustSrc(vm.bodyImage.getBodyImage('back'))}}" height="100%" width="100%" x="0" y="0"
-      class="body-bg-img ng-hide" ng-show="!vm.bodyImage.isFront" aria-hidden="true"></image>
+      ng-attr-xlink:href="{{vm.trustSrc(vm.bodyImage.getBodyImage('front'))}}" height="100%" width="100%" x="0" y="0"
+      class="body-bg-img ng-hide"></image>
     <path class="layers layer-front-1 head female" fill="#83B7D6" fill-rule="nonzero" d="M100.056 110.152c-8.382 24.824-24.639 42.59-43.77 42.59-18.379-1.677-34.098-17.54-42.737-40.267-3.224-1.472-7.182-6.548-9.957-13.201-3.65-8.754-3.87-16.923-.49-18.246 1.057-.413 2.34-.11 3.715.771-.25-3.175-.38-6.404-.38-9.675C6.437 29.576 17.922.46 56.287.46s49.85 29.116 49.85 71.664c0 2.772-.093 5.525-.274 8.25 1.632-1.253 3.169-1.752 4.396-1.272 3.344 1.31 3.127 9.39-.484 18.051-2.708 6.492-6.554 11.466-9.72 12.999z"
       opacity=".601" svg-tooltip="Head" transform="scale(0.32,0.32), translate(428,0)" ng-click="vm.bodyImage.selectBodyParts('head',0)"
       role="button" tabindex="0"></path>
     <path class="layers layer-front-1 neck female" fill="#83B7D6" fill-rule="nonzero" d="M80.54 48.772c-.612-1.322-.915-3.223-.458-4.542C84.964 30.132 86.97 15.611 87.405.836c-8.651 11.204-17.452 22.327-32.86 23-13.577.592-24.085-5.443-34.32-13.685-2.94-2.37-5.841-4.509-8.76-6.455.095 2.064.184 4.129.255 6.193.426 12.347 1.903 24.534 5.098 36.499.313 1.175.156 2.785-.421 3.842-3.878 7.08-9.695 12.086-16.43 15.876.014.064.05.11.057.177.027.266.035.528.055.794 16.078 6.576 36.68 4.986 53.05 5.181 16.037.192 31.384-1.249 46.326-5.148-7.997-4.117-14.934-9.739-18.915-18.338"
-      opacity=".525" svg-tooltip="Neck" transform="scale(0.35,0.35), translate(381,115)" ng-attr-transform="{{vm.bodyImage.getTransform('neck') || 'scale(0.325,0.325), translate(428,125)'}}"
+      opacity=".525" svg-tooltip="Neck" transform="scale(0.3,0.3), translate(458,156)" ng-attr-transform="{{vm.bodyImage.getTransform('neck') || 'scale(0.325,0.325), translate(428,125)'}}"
       ng-click="vm.bodyImage.selectBodyParts('neck',0)" role="button" tabindex="0"></path>
     <path class="layers layer-front-1 chest female" fill="#83B7D6" fill-rule="nonzero" d="M8.52 35.72c1.744-13.435 7.811-25.114 18.2-35.037h123.821c9.908 11.453 16.51 24.082 19.805 37.888 4.944 20.708 2.83 17.258 2.83 38.873s2.782 25.816 0 36.541c-2.781 10.725-10.337 23.322-27.39 19.952-17.052-3.37-27.935-11.882-58.309-11.882s-32.355 14.208-56.153 14.208c-15.865 0-26.126-11.908-30.782-35.726l5.362-29.352c0-10.208.872-22.029 2.616-35.464z"
       opacity=".577" svg-tooltip="Chest" transform="scale(0.315,0.315), translate(403,202)" ng-click="vm.bodyImage.selectBodyParts('chest',0)"
@@ -244,7 +241,7 @@
       opacity=".3" svg-tooltip="Head" transform="scale(0.32,0.3), translate(430,2)" ng-attr-transform="{{vm.bodyImage.getTransform('head') || 'scale(0.32,0.3), translate(430,2)'}}"
       ng-click="vm.bodyImage.selectBodyParts('head',0)" role="button" tabindex="0"></path>
     <path class="layers layer-back-1 neck female" fill="#27BFCF" fill-rule="evenodd" d="M118.614 30.369c-7.508-3.648-18.972-9.852-25.236-15.52-3.246-2.937-4.405-6.724-5.156-10.647C69.23 7.389 48.395 4.777 29.488.734c.048 1.093-.062 2.214-.277 3.408-1.355 7.534-6.093 12.23-12.191 16.194-3.954 2.57-12.073 6.585-16.198 8.806 38.037 25.767 83.445 18.767 117.792 1.227"
-      opacity=".3" svg-tooltip="Neck" transform="scale(0.35,0.35), translate(381,115)" ng-attr-transform="{{vm.bodyImage.getTransform('neck') || 'scale(0.3,0.3), translate(458,156)'}}"
+      opacity=".3" svg-tooltip="Neck" transform="scale(0.3,0.3), translate(458,156)" ng-attr-transform="{{vm.bodyImage.getTransform('neck') || 'scale(0.3,0.3), translate(458,156)'}}"
       ng-click="vm.bodyImage.selectBodyParts('neck',0)" role="button" tabindex="0"></path>
     <path class="layers layer-back-1 back female" fill="#27BFCF" fill-rule="evenodd" d="M6.847 152.77c3.576 15.256 6.753 30.532 7.676 46.264.555 9.456 2.355 18.836 3.58 28.25 1.142 8.752-.447 16.981-4.137 25.01-3.287 7.153-7.943 18.095-10.911 25.376 11.535-2.781 66.913-6.138 78.528-7.362 23.313-2.454 68.057 4.074 89.57 6.135-.3-.75-3.385-4.965-3.686-5.716-3.172-7.873-6.865-15.53-10.155-23.357-2.573-6.126-2.994-12.62-2.265-19.14 1.424-12.74 3.282-25.437 4.487-38.197.968-10.244 3.086-20.213 5.363-30.211 2.79-12.25 5.898-24.47 6.631-37.096.337-5.82.525-11.648.95-17.459.189-2.56.785-5.093 1.238-7.632.061-.34.354-.649.786-1.363-1.124-10.147-2.687-20.25-5.535-30.3-6.073-21.433-15.743-41.623-22.413-62.86C108.966 22.851 61.907 26.402 26.732.679c-.05.022-.103.04-.154.062.218 27.843-8.68 55.417-17.715 81.472-2.753 7.939-5.58 15.865-8 23.914.286 3.287.53 6.58.593 9.874.24 12.493 2.555 24.671 5.391 36.77"
       opacity=".3" svg-tooltip="Back" transform="scale(0.31,0.31), translate(413,185)" ng-click="vm.bodyImage.selectBodyParts('back',0)"
@@ -567,11 +564,11 @@
       opacity=".3" svg-tooltip="Toes" transform="scale(0.28,0.25), translate(457,1326)" ng-click="vm.bodyImage.selectBodyParts('toes-left', 1)"
       role="button" tabindex="0"></path>
     <path fill="#27BFCF" class="layers layer-back-1 head male" fill-rule="evenodd" d="M1.402 93.553c1.24 5.152 2.89 10.206 4.397 15.292 1.088 3.668 2.824 6.715 6.927 7.816.674.18 1.366 1.456 1.498 2.31l.145.955c6.68-1.078 13.39-1.989 20.125-2.665 21.155-2.124 43.093-2.13 63.916 2.658.014-.106.03-.21.045-.316.24-1.723.808-2.727 2.563-3.134 2.367-.55 3.836-2.152 4.727-4.399 3.157-7.968 6.49-15.872 6.359-24.704-.028-1.889.643-3.782.68-5.68.061-3.188-.83-4.257-3.958-4.908-1.657-.345-1.365-1.432-1.207-2.477 1.428-9.43.572-18.775-1.06-28.08-3.637-20.715-15.639-34.963-34.55-43.35C65.31-.101 57.903.104 50.636 1.4c-14.55 2.595-25.617 10.623-34.4 22.107C8.646 33.43 6.173 45.13 5.378 57.23c-.407 6.198-.071 12.446-.071 18.715C.488 77.303-.485 78.987.304 84.387c.445 3.046.383 6.195 1.098 9.166"
-      opacity=".3" svg-tooltip="Head" transform="scale(0.32,0.32), translate(428, 0)" ng-attr-transform="{{vm.bodyImage.getTransform('head') || 'scale(0.32,0.32), translate(428, 0)'}}"
+      opacity=".3" svg-tooltip="Head" transform="scale(0.32,0.3), translate(430,2)" ng-attr-transform="{{vm.bodyImage.getTransform('head') || 'scale(0.32,0.32), translate(428, 0)'}}"
       ng-click="vm.bodyImage.selectBodyParts('head',0)" role="button" tabindex="0"></path>
     <path fill="#27BFCF" class="layers layer-back-1 neck male" fill-rule="evenodd" d="M19.597 26.974C13.603 31.746 7.34 36.08.673 39.791a384.197 384.197 0 0 0 22.81 3.9c21.242 2.959 42.896 4.15 64.278 2.08 10.42-1.01 20.857-2.841 30.917-5.831a150.887 150.887 0 0 1-4.113-2.582c-4.939-3.22-9.595-6.88-14.28-10.47-.615-.472-1.035-1.73-.923-2.537.904-6.494 1.982-12.964 2.906-19.456-27.238-6.332-56.334-4.43-83.751.013.98 6.43 1.902 12.872 2.67 19.331.1.851-.802 2.108-1.59 2.735"
       opacity=".3" ng-attr-transform="{{vm.bodyImage.getTransform('neck') || 'scale(0.31,0.31), translate(440,120)'}}"
-      svg-tooltip="Neck" ng-click="vm.bodyImage.selectBodyParts('neck',0)" role="button" tabindex="0" transform="scale(0.35,0.35), translate(381,115)"></path>
+      svg-tooltip="Neck" ng-click="vm.bodyImage.selectBodyParts('neck',0)" role="button" tabindex="0" transform="scale(0.3,0.3), translate(458,156)"></path>
     <path fill="#27BFCF" class="layers layer-back-1 back male" fill-rule="evenodd" d="M.693 129.272c-.65 12.363 1.892 24.257 4.782 36.185 2.268 9.359 3.745 18.92 5.335 28.431 2.147 12.837 2.497 25.833 2.887 38.808.117 3.895-.337 7.807-.53 11.711-.462 9.302-.713 18.622-1.47 27.9-.37 4.518-1.06 9.074-2.158 13.482 15.997.887 31.803 3.983 47.706 5.847 16.606 1.946 33.495 2.04 50.2 2.014 8.491-.013 16.985-.227 25.458-.79 7.855-.52 15.62-1.655 23.449-2.393 8.995-.85 18.03-1.526 26.96-2.908-1.102-4.574-1.854-9.223-2.067-13.99-.35-7.893-.176-15.827-.897-23.682-.65-7.06-1.291-14.052-.844-21.16.397-6.305.03-12.657.42-18.964 1.034-16.723 3.333-33.273 6.99-49.648 2.339-10.474 4.214-21.05 6.32-31.576.098-.493.408-.947.877-1.963-3.671-43.372-10.267-87.447-34.085-124.659-.729-.422-1.457-.845-2.18-1.277-1.33.405-2.665.789-4.006 1.152-20.617 5.582-42.291 6.704-63.544 5.655C72.493 6.57 54.778 4.11 37.314.537c-.408.22-.82.436-1.232.652-5.05 9.125-10.877 17.783-16.332 26.667C14.608 36.23 9.767 44.88 6.56 54.201 3.004 64.526 2.465 75.196 1.862 86.012 1.11 99.518.72 113.038.29 126.556l.095-.098c.165 1.429.345 2.127.31 2.814"
       opacity=".3" svg-tooltip="Back" transform="scale(0.32,0.32), translate(386,155)" ng-click="vm.bodyImage.selectBodyParts('back',0)"
       role="button" tabindex="0"></path>
@@ -708,7 +705,7 @@
   <script>
     $(function () {
       let pathList = $('path');
-      console.log(pathList[0].attributes)
+      
       let svgPath = {}
       let malefd1 = {},
         malefd2 = {},
@@ -727,7 +724,7 @@
         femaleb1 = [],
         femaleb2 = []
       for (let i = 0; i < pathList.length; i++) {
-
+        
         let attrs = pathList[i].attributes
         let attrsArray, level, sex, d, transform
         for (let j = 0; j < attrs.length; j++) {
@@ -748,21 +745,26 @@
             malefd1 = {}
             malefd1.d = d
             malefd1.transform = transform
+            malefd1.level = 1
             malef1.push(malefd1)
           } else if (level == 'layer-front-2') {
             malefd2 = {}
             malefd2.d = d
             malefd2.transform = transform
+            malefd2.level = 2
             malef2.push(malefd2)
           } else if (level == 'layer-back-1') {
-            malebd1.d = d
+            console.log(attrs)
             malebd1 = {}
+            malebd1.d = d
             malebd1.transform = transform
+            malefd1.level = 1
             maleb1.push(malebd1)
           } else if (level == 'layer-back-2') {
             malebd2 = {}
             malebd2.d = d
             malebd2.transform = transform
+            malefd2.level = 2
             maleb2.push(malebd2)
           }
 
@@ -771,21 +773,25 @@
             femalefd1 = {}
             femalefd1.d = d
             femalefd1.transform = transform
+            femalefd1.level = 1
             femalef1.push(femalefd1)
           } else if (level == 'layer-front-2') {
             femalefd2 = {}
             femalefd2.d = d
             femalefd2.transform = transform
+            femalefd2.level = 2
             femalef2.push(femalefd2)
           } else if (level == 'layer-back-1') {
-            femalebd1.d = d
             femalebd1 = {}
+            femalebd1.d = d
             femalebd1.transform = transform
+            femalebd1.level = 1
             femaleb1.push(femalebd1)
           } else if (level == 'layer-back-2') {
             femalebd2 = {}
             femalebd2.d = d
             femalebd2.transform = transform
+            femalebd2.level = 2
             femaleb2.push(femalebd2)
           }
 

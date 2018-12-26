@@ -2,6 +2,9 @@ const path = require('path');
 const pxtorem = require('postcss-pxtorem')
 const autoprefixer = require('autoprefixer')
 
+function resolve(dir) {
+  return path.join(__dirname, dir)
+}
 module.exports = {
   // 部署生产环境和开发环境下的URL。
   // 默认情况下，Vue CLI 会假设你的应用是被部署在一个域名的根路径上
@@ -18,7 +21,7 @@ module.exports = {
   filenameHashing: true,
 
   //   lintOnSave：{ type:Boolean default:true } 问你是否使用eslint,设置为时true，eslint-loader将发出lint错误作为警告。默认情况下，警告仅记录到终端，并且不会使编译失败。
-  lintOnSave: true,
+  lintOnSave: false,
   //如果你想要在生产构建时禁用 eslint-loader，你可以用如下配置
   lintOnSave: process.env.NODE_ENV !== 'production',
 
@@ -64,7 +67,6 @@ module.exports = {
     port: 8080, // 端口号
     https: false, // https:{type:Boolean}
     open: true, //配置自动启动浏览器
-    hot: true,
     // 配置多个代理
     proxy: {
       "/api": {
@@ -77,20 +79,16 @@ module.exports = {
       }
     }
   },
-
-  chainWebpack: config => {
+  
+  chainWebpack: (config) => {
     // 修复HMR
     config.resolve.symlinks(true);
-  },
+    // 路径别名
+    config.resolve.alias
+      .set('@', resolve('src'))
+      .set('assets', resolve('src/assets'))
+      .set('components', resolve('src/components'))
+      .set('public', resolve('public'))
+  }
 
-  // 路径别名
-  configureWebpack: {
-    resolve: {
-      alias: {
-        'assets': '@/assets',
-        'components': '@/components',
-        'views': '@/views',
-      }
-    }
-  },
 }
