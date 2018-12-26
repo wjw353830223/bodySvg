@@ -1,5 +1,6 @@
-const autoprefixer = require('autoprefixer')
+const path = require('path');
 const pxtorem = require('postcss-pxtorem')
+const autoprefixer = require('autoprefixer')
 
 module.exports = {
   // 部署生产环境和开发环境下的URL。
@@ -49,7 +50,7 @@ module.exports = {
         plugins: [
           autoprefixer(),
           pxtorem({
-            rootValue: 75.0,
+            rootValue: 37.5,
             propList: ['*']
           })
         ]
@@ -57,14 +58,13 @@ module.exports = {
     }
   },
 
-
   // 它支持webPack-dev-server的所有选项
   devServer: {
     host: "localhost",
     port: 8080, // 端口号
     https: false, // https:{type:Boolean}
     open: true, //配置自动启动浏览器
-
+    hot: true,
     // 配置多个代理
     proxy: {
       "/api": {
@@ -76,5 +76,21 @@ module.exports = {
         target: "<other_url>"
       }
     }
-  }
+  },
+
+  chainWebpack: config => {
+    // 修复HMR
+    config.resolve.symlinks(true);
+  },
+
+  // 路径别名
+  configureWebpack: {
+    resolve: {
+      alias: {
+        'assets': '@/assets',
+        'components': '@/components',
+        'views': '@/views',
+      }
+    }
+  },
 }
