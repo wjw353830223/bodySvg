@@ -20,10 +20,10 @@
         class="layers layer-show"
         fill="#f34c4c"
         fill-rule="evenodd"
-        opacity=".8"
+        opacity=".85"
         v-bind:d="value.d"
         v-bind:transform="value.transform"
-        @click="getLevelTwo('HEAD_1',1)"
+        @click="getLevelTwo(value.name,value.level)"
       ></path>
     </svg>
 
@@ -34,7 +34,9 @@
         <van-icon name="cross" color="#fff" @click="hideMenu"></van-icon>
       </div>
 
-      <!-- 二级菜单 -->
+      <div class="popup-body">
+
+        <!-- 二级菜单 -->
       <div v-if="!showNext" v-for="(value,index) in levelTwo" :key="index">
         <div class="cell-link van-hairline--bottom" @click="getLevelThree(value.code)">
           <div class="popup-cell-title">{{value.name}}</div>
@@ -60,7 +62,10 @@
           </van-cell>
         </van-cell-group>
       </van-checkbox-group>
-      <van-button size="large" class="" v-if="showNext">下一步</van-button>
+      <van-button size="normal" class="">下一步</van-button>
+
+      </div>
+      
     </van-popup>
   </div>
 </template>
@@ -113,6 +118,7 @@ export default {
       this.preserveAspectRatio = false;
     },
     getLevelTwo(paramName, level) {
+      this.showNext = false;
       fetch(
         "http://cm.changrentech.com:8092/bodyparts.do?parentCode=" + paramName
       )
@@ -156,6 +162,7 @@ export default {
     },
     turn() {
       this.show = false;
+      this.showNext = false;
       let sexType = this.sexType;
       let faceType = this.faceType;
       if (faceType == "front") {
@@ -205,6 +212,11 @@ export default {
 
 .van-popup {
   height: 30%;
+  overflow-y: hidden;
+  .popup-body{
+    overflow-y: auto;
+    height: 100%;
+  }
 }
 .level-one {
   font-size: 16px;
