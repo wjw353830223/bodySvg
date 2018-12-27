@@ -18,9 +18,9 @@
         v-for="(value,index) in pathList"
         :key="index"
         class="layers layer-show"
-        fill="#27BFCF"
+        fill="#f34c4c"
         fill-rule="evenodd"
-        opacity=".3"
+        opacity=".8"
         v-bind:d="value.d"
         v-bind:transform="value.transform"
         @click="getLevelTwo('HEAD_1',1)"
@@ -177,6 +177,8 @@ export default {
 .person-svg {
   width: 100vw;
   height: 100vh;
+  background: url('../assets/svgBg.png');
+  background-size: cover;
 }
 #full-body {
   display: block;
