@@ -726,7 +726,7 @@
       for (let i = 0; i < pathList.length; i++) {
         
         let attrs = pathList[i].attributes
-        let attrsArray, level, sex, d, transform
+        let attrsArray, level, sex, d, transform,oneName,twoName,parentName
         for (let j = 0; j < attrs.length; j++) {
           let attrsName = attrs[j].name
           if (attrsName == 'd') {
@@ -736,6 +736,12 @@
           } else if (attrsName == 'class') {
             attrsArray = attrs[j].value.split(" ")
             level = attrsArray[1]
+            if(level == 'layer-front-1' || level == 'layer-back-1'){
+              oneName = attrsArray[2]
+            }else if(level == 'layer-front-2' || level == 'layer-back-2'){
+              twoName = attrsArray[3]
+              parentName = attrsArray[2]
+            }
             sex = attrsArray[attrsArray.length - 1]
           }
         }
@@ -746,25 +752,31 @@
             malefd1.d = d
             malefd1.transform = transform
             malefd1.level = 1
+            malefd1.name = oneName
             malef1.push(malefd1)
           } else if (level == 'layer-front-2') {
             malefd2 = {}
             malefd2.d = d
             malefd2.transform = transform
             malefd2.level = 2
+            malefd2.name = twoName
+            malefd2.parentName = parentName
             malef2.push(malefd2)
           } else if (level == 'layer-back-1') {
             console.log(attrs)
             malebd1 = {}
             malebd1.d = d
             malebd1.transform = transform
-            malefd1.level = 1
+            malebd1.level = 1
+            malebd1.name = oneName
             maleb1.push(malebd1)
           } else if (level == 'layer-back-2') {
             malebd2 = {}
             malebd2.d = d
             malebd2.transform = transform
-            malefd2.level = 2
+            malebd2.level = 2
+            malebd2.name = twoName
+            malebd2.parentName = parentName
             maleb2.push(malebd2)
           }
 
@@ -774,24 +786,30 @@
             femalefd1.d = d
             femalefd1.transform = transform
             femalefd1.level = 1
+            femalefd1.name = oneName
             femalef1.push(femalefd1)
           } else if (level == 'layer-front-2') {
             femalefd2 = {}
             femalefd2.d = d
             femalefd2.transform = transform
             femalefd2.level = 2
+            femalefd2.name = twoName
+            femalefd2.parentName = parentName
             femalef2.push(femalefd2)
           } else if (level == 'layer-back-1') {
             femalebd1 = {}
             femalebd1.d = d
             femalebd1.transform = transform
             femalebd1.level = 1
+            femalebd1.name = oneName
             femaleb1.push(femalebd1)
           } else if (level == 'layer-back-2') {
             femalebd2 = {}
             femalebd2.d = d
             femalebd2.transform = transform
             femalebd2.level = 2
+            femalebd2.name = twoName
+            femalebd2.parentName = parentName
             femaleb2.push(femalebd2)
           }
 
