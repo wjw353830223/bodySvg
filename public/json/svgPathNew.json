@@ -16,7 +16,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Head"
+                    "svgTooltip": "Head",
+                    "hanzi": "\u5934"
                 },
                 {
                     "class": "layers layer-front-1 neck female",
@@ -32,7 +33,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Neck"
+                    "svgTooltip": "Neck",
+                    "hanzi": "\u8116\u5b50"
                 },
                 {
                     "class": "layers layer-front-1 chest female",
@@ -48,7 +50,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Chest"
+                    "svgTooltip": "Chest",
+                    "hanzi": "\u80f8\u90e8"
                 },
                 {
                     "class": "layers layer-front-1 arm-right female",
@@ -64,7 +67,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u624b\u81c2"
                 },
                 {
                     "class": "layers layer-front-1 arm-left female",
@@ -80,7 +84,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u80f3\u818a\u7684\u8bdd"
                 },
                 {
                     "class": "layers layer-front-1 abdomen female",
@@ -96,7 +101,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Abdomen"
+                    "svgTooltip": "Abdomen",
+                    "hanzi": "\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-1 pelvis female",
@@ -112,7 +118,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Pelvis"
+                    "svgTooltip": "Pelvis",
+                    "hanzi": "\u9aa8\u76c6"
                 },
                 {
                     "class": "layers layer-front-1 leg-right female",
@@ -128,7 +135,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u7684\u817f"
                 },
                 {
                     "class": "layers layer-front-1 leg-left female",
@@ -144,7 +152,8 @@
                     "direction": "front",
                     "sex": "female",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u5de6\u817f\u538b"
                 }
             ],
             "levelTwo": [
@@ -163,7 +172,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Scalp"
+                    "svgTooltip": "Scalp",
+                    "hanzi": "\u5934\u76ae"
                 },
                 {
                     "class": "layers layer-front-2 head forehead female",
@@ -180,7 +190,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Forehead"
+                    "svgTooltip": "Forehead",
+                    "hanzi": "\u989d\u5934"
                 },
                 {
                     "class": "layers layer-front-2 head eyes female",
@@ -197,7 +208,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Eyes"
+                    "svgTooltip": "Eyes",
+                    "hanzi": "\u7684\u773c\u775b"
                 },
                 {
                     "class": "layers layer-front-2 head ear-right female",
@@ -214,7 +226,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Ear"
+                    "svgTooltip": "Ear",
+                    "hanzi": "\u8033\u6735\u5185\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 head ear-left female",
@@ -231,7 +244,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Ear"
+                    "svgTooltip": "Ear",
+                    "hanzi": "ear-left"
                 },
                 {
                     "class": "layers layer-front-2 head jaw female",
@@ -248,7 +262,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Jaw"
+                    "svgTooltip": "Jaw",
+                    "hanzi": "\u4e0b\u5df4"
                 },
                 {
                     "class": "layers layer-front-2 head nose female",
@@ -265,7 +280,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Nose"
+                    "svgTooltip": "Nose",
+                    "hanzi": "\u9f3b\u5b50"
                 },
                 {
                     "class": "layers layer-front-2 head face-left female",
@@ -282,7 +298,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Face"
+                    "svgTooltip": "Face",
+                    "hanzi": "\u76d8\u5de6"
                 },
                 {
                     "class": "layers layer-front-2 head face-left female",
@@ -299,7 +316,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Face"
+                    "svgTooltip": "Face",
+                    "hanzi": "\u7684\u8138"
                 },
                 {
                     "class": "layers layer-front-2 head mouth female",
@@ -316,7 +334,8 @@
                     "sex": "female",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Mouth"
+                    "svgTooltip": "Mouth",
+                    "hanzi": "\u53e3"
                 },
                 {
                     "class": "layers layer-front-2 chest upper-chest female",
@@ -333,7 +352,8 @@
                     "sex": "female",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper chest"
+                    "svgTooltip": "Upper chest",
+                    "hanzi": "\u80f8\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 chest breast-right female",
@@ -350,7 +370,8 @@
                     "sex": "female",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Breast"
+                    "svgTooltip": "Breast",
+                    "hanzi": "breast-right"
                 },
                 {
                     "class": "layers layer-front-2 chest sternum female",
@@ -367,7 +388,8 @@
                     "sex": "female",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Sternum"
+                    "svgTooltip": "Sternum",
+                    "hanzi": "\u80f8\u9aa8"
                 },
                 {
                     "class": "layers layer-front-2 chest breast-left female",
@@ -384,7 +406,8 @@
                     "sex": "female",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Breast"
+                    "svgTooltip": "Breast",
+                    "hanzi": "breast-left"
                 },
                 {
                     "class": "layers layer-front-2 chest chest-inner female",
@@ -401,7 +424,8 @@
                     "sex": "female",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Chest"
+                    "svgTooltip": "Chest",
+                    "hanzi": "chest-inner"
                 },
                 {
                     "class": "layers layer-front-2 arm-right shoulder-right female",
@@ -418,7 +442,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "\u80a9\u8180\u4e56\u4e56"
                 },
                 {
                     "class": "layers layer-front-2 arm-right armpit-right female",
@@ -435,7 +460,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Armpit"
+                    "svgTooltip": "Armpit",
+                    "hanzi": "armpit-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right upper-arm-right female",
@@ -452,7 +478,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper arm"
+                    "svgTooltip": "Upper arm",
+                    "hanzi": "upper-arm-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right elbow-right female",
@@ -469,7 +496,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "\u80f3\u818a\u8098"
                 },
                 {
                     "class": "layers layer-front-2 arm-right forearm-right female",
@@ -486,7 +514,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right wrist-right female",
@@ -503,7 +532,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right hand-right female",
@@ -520,7 +550,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hand"
+                    "svgTooltip": "Hand",
+                    "hanzi": "\u624b"
                 },
                 {
                     "class": "layers layer-front-2 arm-right fingers-right female",
@@ -537,7 +568,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-left shoulder-left female",
@@ -554,7 +586,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "shoulder-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left armpit-left female",
@@ -571,7 +604,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Armpit"
+                    "svgTooltip": "Armpit",
+                    "hanzi": "armpit-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left upper-arm-left female",
@@ -588,7 +622,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper arm"
+                    "svgTooltip": "Upper arm",
+                    "hanzi": "upper-arm-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left elbow-left female",
@@ -605,7 +640,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "elbow-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left forearm-left female",
@@ -622,7 +658,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left wrist-left female",
@@ -639,7 +676,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left hand-left female",
@@ -656,7 +694,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hand"
+                    "svgTooltip": "Hand",
+                    "hanzi": "\u624b\u5411"
                 },
                 {
                     "class": "layers layer-front-2 arm-left fingers-left female",
@@ -673,7 +712,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-left"
                 },
                 {
                     "class": "layers layer-front-2 abdomen upper-abdomen female",
@@ -690,7 +730,8 @@
                     "sex": "female",
                     "parentName": "abdomen",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper abdomen"
+                    "svgTooltip": "Upper abdomen",
+                    "hanzi": "\u4e0a\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 abdomen epigastric female",
@@ -707,7 +748,8 @@
                     "sex": "female",
                     "parentName": "abdomen",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Epigastric <span class='tooltip-sub'><br\/> (upper central abdomen)<\/span>"
+                    "svgTooltip": "Epigastric <span class='tooltip-sub'><br\/> (upper central abdomen)<\/span>",
+                    "hanzi": "\u4e0a\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 pelvis lower-abdomen female",
@@ -724,7 +766,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Lower abdomen"
+                    "svgTooltip": "Lower abdomen",
+                    "hanzi": "\u4e0b\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 leg-right thigh-right female",
@@ -741,7 +784,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Thigh"
+                    "svgTooltip": "Thigh",
+                    "hanzi": "thigh-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-right knee-right female",
@@ -758,7 +802,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Knee"
+                    "svgTooltip": "Knee",
+                    "hanzi": "\u5f15\u51fa\u819d\u76d6"
                 },
                 {
                     "class": "layers layer-front-2 leg-right shin-right female",
@@ -775,7 +820,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shin"
+                    "svgTooltip": "Shin",
+                    "hanzi": "shin-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-right ankle-right female",
@@ -792,7 +838,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ankle"
+                    "svgTooltip": "Ankle",
+                    "hanzi": "ankle-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-right foot-right female",
@@ -809,7 +856,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "\u52a8\u8f84\u5f97\u548e"
                 },
                 {
                     "class": "layers layer-front-2 leg-right toes-right female",
@@ -826,7 +874,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "toes-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-left thigh-left female",
@@ -843,7 +892,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Thigh"
+                    "svgTooltip": "Thigh",
+                    "hanzi": "thigh-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left knee-left female",
@@ -860,7 +910,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Knee"
+                    "svgTooltip": "Knee",
+                    "hanzi": "knee-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left shin-left female",
@@ -877,7 +928,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shin"
+                    "svgTooltip": "Shin",
+                    "hanzi": "shin-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left ankle-left female",
@@ -894,7 +946,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ankle"
+                    "svgTooltip": "Ankle",
+                    "hanzi": "\u811a\u8e1d"
                 },
                 {
                     "class": "layers layer-front-2 leg-left foot-left female",
@@ -911,7 +964,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "foot-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left toes-left female",
@@ -928,7 +982,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "\u811a\u8dbe"
                 },
                 {
                     "class": "layers layer-front-2 pelvis lower-pelvis female",
@@ -945,7 +1000,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Pelvis"
+                    "svgTooltip": "Pelvis",
+                    "hanzi": "lower-pelvis"
                 },
                 {
                     "class": "layers layer-front-2 pelvis hip-right female",
@@ -962,7 +1018,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-right"
                 },
                 {
                     "class": "layers layer-front-2 pelvis hip-left female",
@@ -979,7 +1036,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-left"
                 },
                 {
                     "class": "layers layer-front-2 pelvis groin-right female",
@@ -996,7 +1054,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Groin"
+                    "svgTooltip": "Groin",
+                    "hanzi": "groin-right"
                 },
                 {
                     "class": "layers layer-front-2 pelvis groin-left female",
@@ -1013,7 +1072,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Groin"
+                    "svgTooltip": "Groin",
+                    "hanzi": "groin-left"
                 },
                 {
                     "class": "layers layer-front-2 pelvis suprapubic female",
@@ -1030,7 +1090,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Suprapubic <span class='tooltip-sub'><br\/> (above pubic bone)<\/span>"
+                    "svgTooltip": "Suprapubic <span class='tooltip-sub'><br\/> (above pubic bone)<\/span>",
+                    "hanzi": "\u803b\u9aa8\u5f13\u4e0a\u7684"
                 },
                 {
                     "class": "layers layer-front-2 pelvis genitals female",
@@ -1047,7 +1108,8 @@
                     "sex": "female",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Genitals"
+                    "svgTooltip": "Genitals",
+                    "hanzi": "\u751f\u6b96\u5668"
                 }
             ]
         },
@@ -1067,7 +1129,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Head"
+                    "svgTooltip": "Head",
+                    "hanzi": "\u5934"
                 },
                 {
                     "class": "layers layer-back-1 neck female",
@@ -1083,7 +1146,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Neck"
+                    "svgTooltip": "Neck",
+                    "hanzi": "\u8116\u5b50"
                 },
                 {
                     "class": "layers layer-back-1 back female",
@@ -1099,7 +1163,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Back"
+                    "svgTooltip": "Back",
+                    "hanzi": "\u56de\u6765"
                 },
                 {
                     "class": "layers layer-back-1 arm-right female",
@@ -1115,7 +1180,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u624b\u81c2"
                 },
                 {
                     "class": "layers layer-back-1 arm-left female",
@@ -1131,7 +1197,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u80f3\u818a\u7684\u8bdd"
                 },
                 {
                     "class": "layers layer-back-1 buttock female",
@@ -1147,7 +1214,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Buttocks"
+                    "svgTooltip": "Buttocks",
+                    "hanzi": "\u81c0\u90e8"
                 },
                 {
                     "class": "layers layer-back-1 leg-right female",
@@ -1163,7 +1231,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u7684\u817f"
                 },
                 {
                     "class": "layers layer-back-1 leg-left female",
@@ -1179,7 +1248,8 @@
                     "direction": "back",
                     "sex": "female",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u5de6\u817f\u538b"
                 }
             ],
             "levelTwo": [
@@ -1198,7 +1268,8 @@
                     "sex": "female",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper Back"
+                    "svgTooltip": "Upper Back",
+                    "hanzi": "\u5907\u7528"
                 },
                 {
                     "class": "layers layer-back-2 back back-inner female",
@@ -1215,7 +1286,8 @@
                     "sex": "female",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Back"
+                    "svgTooltip": "Back",
+                    "hanzi": "\u540e\u7aef"
                 },
                 {
                     "class": "layers layer-back-2 back back-lower female",
@@ -1232,7 +1304,8 @@
                     "sex": "female",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Lower back"
+                    "svgTooltip": "Lower back",
+                    "hanzi": "back-lower"
                 },
                 {
                     "class": "layers layer-back-2 back flank-left female",
@@ -1249,7 +1322,8 @@
                     "sex": "female",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Flank"
+                    "svgTooltip": "Flank",
+                    "hanzi": "\u5de6\u7ffc"
                 },
                 {
                     "class": "layers layer-back-2 back flank-right female",
@@ -1266,7 +1340,8 @@
                     "sex": "female",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Flank"
+                    "svgTooltip": "Flank",
+                    "hanzi": "\u53f3\u7ffc"
                 },
                 {
                     "class": "layers layer-back-2 buttock tailbone female",
@@ -1283,7 +1358,8 @@
                     "sex": "female",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Tailbone"
+                    "svgTooltip": "Tailbone",
+                    "hanzi": "\u5c3e\u690e\u9aa8"
                 },
                 {
                     "class": "layers layer-back-2 buttock buttock-inner female",
@@ -1300,7 +1376,8 @@
                     "sex": "female",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Buttocks"
+                    "svgTooltip": "Buttocks",
+                    "hanzi": "buttock-inner"
                 },
                 {
                     "class": "layers layer-back-2 buttock rectum female",
@@ -1317,7 +1394,8 @@
                     "sex": "female",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Rectum"
+                    "svgTooltip": "Rectum",
+                    "hanzi": "\u76f4\u80a0"
                 },
                 {
                     "class": "layers layer-back-2 buttock hip-left female",
@@ -1334,7 +1412,8 @@
                     "sex": "female",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-left"
                 },
                 {
                     "class": "layers layer-back-2 buttock hip-right female",
@@ -1351,7 +1430,8 @@
                     "sex": "female",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-left shoulder-left female",
@@ -1368,7 +1448,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "shoulder-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left upper-arm-left female",
@@ -1385,7 +1466,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper arm"
+                    "svgTooltip": "Upper arm",
+                    "hanzi": "upper-arm-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left elbow-left female",
@@ -1402,7 +1484,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "elbow-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left forearm-left female",
@@ -1419,7 +1502,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left wrist-left female",
@@ -1436,7 +1520,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left hand-inner-left female",
@@ -1453,7 +1538,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hand"
+                    "svgTooltip": "Hand",
+                    "hanzi": "hand-inner-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left fingers-left female",
@@ -1470,7 +1556,8 @@
                     "sex": "female",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-right shoulder-right female",
@@ -1487,7 +1574,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "\u80a9\u8180\u4e56\u4e56"
                 },
                 {
                     "class": "layers layer-back-2 arm-right upper-arm-right female",
@@ -1504,7 +1592,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper arm"
+                    "svgTooltip": "Upper arm",
+                    "hanzi": "upper-arm-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right elbow-right female",
@@ -1521,7 +1610,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "\u80f3\u818a\u8098"
                 },
                 {
                     "class": "layers layer-back-2 arm-right forearm-right female",
@@ -1538,7 +1628,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right wrist-right female",
@@ -1555,7 +1646,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right hand-inner-right female",
@@ -1572,7 +1664,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hand"
+                    "svgTooltip": "Hand",
+                    "hanzi": "hand-inner-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right fingers-right female",
@@ -1589,7 +1682,8 @@
                     "sex": "female",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-left hamstring-left female",
@@ -1606,7 +1700,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hamstring"
+                    "svgTooltip": "Hamstring",
+                    "hanzi": "hamstring-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left popliteal-left female",
@@ -1623,7 +1718,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>"
+                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>",
+                    "hanzi": "popliteal-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left calf-left female",
@@ -1640,7 +1736,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Calf"
+                    "svgTooltip": "Calf",
+                    "hanzi": "calf-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left ankle-left female",
@@ -1657,7 +1754,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ankle"
+                    "svgTooltip": "Ankle",
+                    "hanzi": "\u811a\u8e1d"
                 },
                 {
                     "class": "layers layer-back-2 leg-left foot-left female",
@@ -1674,7 +1772,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "foot-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left toes-left female",
@@ -1691,7 +1790,8 @@
                     "sex": "female",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "\u811a\u8dbe"
                 },
                 {
                     "class": "layers layer-back-2 leg-right hamstring-right female",
@@ -1708,7 +1808,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hamstring"
+                    "svgTooltip": "Hamstring",
+                    "hanzi": "\u7684\u7b4b"
                 },
                 {
                     "class": "layers layer-back-2 leg-right popliteal-right female",
@@ -1725,7 +1826,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>"
+                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>",
+                    "hanzi": "popliteal-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-right calf-right female",
@@ -1742,7 +1844,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Calf"
+                    "svgTooltip": "Calf",
+                    "hanzi": "calf-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-right ankle-right female",
@@ -1759,7 +1862,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ankle"
+                    "svgTooltip": "Ankle",
+                    "hanzi": "ankle-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-right foot-right female",
@@ -1776,7 +1880,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "\u52a8\u8f84\u5f97\u548e"
                 },
                 {
                     "class": "layers layer-back-2 leg-right toes-right female",
@@ -1793,7 +1898,8 @@
                     "sex": "female",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "toes-right"
                 }
             ]
         }
@@ -1815,7 +1921,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Head"
+                    "svgTooltip": "Head",
+                    "hanzi": "\u5934"
                 },
                 {
                     "class": "layers layer-front-1 neck male",
@@ -1831,7 +1938,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Neck"
+                    "svgTooltip": "Neck",
+                    "hanzi": "\u8116\u5b50"
                 },
                 {
                     "class": "layers layer-front-1 arm-right male",
@@ -1847,7 +1955,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u624b\u81c2"
                 },
                 {
                     "class": "layers layer-front-1 arm-left male",
@@ -1863,7 +1972,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u80f3\u818a\u7684\u8bdd"
                 },
                 {
                     "class": "layers layer-front-1 chest male",
@@ -1879,7 +1989,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Chest"
+                    "svgTooltip": "Chest",
+                    "hanzi": "\u80f8\u90e8"
                 },
                 {
                     "class": "layers layer-front-1 abdomen male",
@@ -1895,7 +2006,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Abdomen"
+                    "svgTooltip": "Abdomen",
+                    "hanzi": "\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-1 pelvis male",
@@ -1911,7 +2023,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Pelvis"
+                    "svgTooltip": "Pelvis",
+                    "hanzi": "\u9aa8\u76c6"
                 },
                 {
                     "class": "layers layer-front-1 leg-right male",
@@ -1927,7 +2040,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u7684\u817f"
                 },
                 {
                     "class": "layers layer-front-1 leg-left male",
@@ -1943,7 +2057,8 @@
                     "direction": "front",
                     "sex": "male",
                     "fillRule": "nonzero",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u5de6\u817f\u538b"
                 }
             ],
             "levelTwo": [
@@ -1962,7 +2077,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Scalp"
+                    "svgTooltip": "Scalp",
+                    "hanzi": "\u5934\u76ae"
                 },
                 {
                     "class": "layers layer-front-2 head forehead male",
@@ -1979,7 +2095,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forehead"
+                    "svgTooltip": "Forehead",
+                    "hanzi": "\u989d\u5934"
                 },
                 {
                     "class": "layers layer-front-2 head eyes male",
@@ -1996,7 +2113,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Eyes"
+                    "svgTooltip": "Eyes",
+                    "hanzi": "\u7684\u773c\u775b"
                 },
                 {
                     "class": "layers layer-front-2 head nose male",
@@ -2013,7 +2131,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Nose"
+                    "svgTooltip": "Nose",
+                    "hanzi": "\u9f3b\u5b50"
                 },
                 {
                     "class": "layers layer-front-2 head ear-left male",
@@ -2030,7 +2149,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ear"
+                    "svgTooltip": "Ear",
+                    "hanzi": "ear-left"
                 },
                 {
                     "class": "layers layer-front-2 head ear-right male",
@@ -2047,7 +2167,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ear"
+                    "svgTooltip": "Ear",
+                    "hanzi": "\u8033\u6735\u5185\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 head face male",
@@ -2064,7 +2185,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Face"
+                    "svgTooltip": "Face",
+                    "hanzi": "\u7684\u8138"
                 },
                 {
                     "class": "layers layer-front-2 head mouth male",
@@ -2081,7 +2203,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Mouth"
+                    "svgTooltip": "Mouth",
+                    "hanzi": "\u53e3"
                 },
                 {
                     "class": "layers layer-front-2 head jaw male",
@@ -2098,7 +2221,8 @@
                     "sex": "male",
                     "parentName": "head",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Jaw"
+                    "svgTooltip": "Jaw",
+                    "hanzi": "\u4e0b\u5df4"
                 },
                 {
                     "class": "layers layer-front-2 arm-right shoulder-right male",
@@ -2115,7 +2239,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "\u80a9\u8180\u4e56\u4e56"
                 },
                 {
                     "class": "layers layer-front-2 arm-right armpit-right male",
@@ -2132,7 +2257,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Armpit"
+                    "svgTooltip": "Armpit",
+                    "hanzi": "armpit-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right upperarm-right male",
@@ -2149,7 +2275,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upperarm"
+                    "svgTooltip": "Upperarm",
+                    "hanzi": "upperarm-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right elbow-right male",
@@ -2166,7 +2293,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "\u80f3\u818a\u8098"
                 },
                 {
                     "class": "layers layer-front-2 arm-right forearm-right male",
@@ -2183,7 +2311,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right wrist-right male",
@@ -2200,7 +2329,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-right hand-right male",
@@ -2217,7 +2347,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hand"
+                    "svgTooltip": "Hand",
+                    "hanzi": "\u624b"
                 },
                 {
                     "class": "layers layer-front-2 arm-right fingers-right male",
@@ -2234,7 +2365,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-right"
                 },
                 {
                     "class": "layers layer-front-2 arm-left shoulder-left male",
@@ -2251,7 +2383,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "shoulder-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left upperarm-left male",
@@ -2268,7 +2401,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upperarm"
+                    "svgTooltip": "Upperarm",
+                    "hanzi": "upperarm-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left armpit-left male",
@@ -2285,7 +2419,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Armpit"
+                    "svgTooltip": "Armpit",
+                    "hanzi": "armpit-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left elbow-left male",
@@ -2302,7 +2437,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "elbow-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left forearm-left male",
@@ -2319,7 +2455,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left wrist-left male",
@@ -2336,7 +2473,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-left"
                 },
                 {
                     "class": "layers layer-front-2 arm-left hand-left male",
@@ -2353,7 +2491,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "hand"
+                    "svgTooltip": "hand",
+                    "hanzi": "\u624b\u5411"
                 },
                 {
                     "class": "layers layer-front-2 arm-left fingers-left male",
@@ -2370,7 +2509,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-left"
                 },
                 {
                     "class": "layers layer-front-2 neck male",
@@ -2387,7 +2527,8 @@
                     "sex": "male",
                     "parentName": "neck",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Neck"
+                    "svgTooltip": "Neck",
+                    "hanzi": "\u8116\u5b50"
                 },
                 {
                     "class": "layers layer-front-2 upper-chest male",
@@ -2404,7 +2545,8 @@
                     "sex": "male",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper chest"
+                    "svgTooltip": "Upper chest",
+                    "hanzi": "\u80f8\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 right-breast male",
@@ -2421,7 +2563,8 @@
                     "sex": "male",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Breast"
+                    "svgTooltip": "Breast",
+                    "hanzi": "\u53f3\u4e73\u623f"
                 },
                 {
                     "class": "layers layer-front-2 sternum male",
@@ -2438,7 +2581,8 @@
                     "sex": "male",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Sternum"
+                    "svgTooltip": "Sternum",
+                    "hanzi": "\u80f8\u9aa8"
                 },
                 {
                     "class": "layers layer-front-2 left-breast male",
@@ -2455,7 +2599,8 @@
                     "sex": "male",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Breast"
+                    "svgTooltip": "Breast",
+                    "hanzi": "\u5de6\u80f8"
                 },
                 {
                     "class": "layers layer-front-2 chest-inner male",
@@ -2472,7 +2617,8 @@
                     "sex": "male",
                     "parentName": "chest",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Chest"
+                    "svgTooltip": "Chest",
+                    "hanzi": "chest-inner"
                 },
                 {
                     "class": "layers layer-front-2 epigastric male",
@@ -2489,7 +2635,8 @@
                     "sex": "male",
                     "parentName": "abdomen",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Epigastric <span class='tooltip-sub'><br\/>(upper central abdomen)<\/span>"
+                    "svgTooltip": "Epigastric <span class='tooltip-sub'><br\/>(upper central abdomen)<\/span>",
+                    "hanzi": "\u4e0a\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 upper-abdomen male",
@@ -2506,7 +2653,8 @@
                     "sex": "male",
                     "parentName": "abdomen",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper abdomen"
+                    "svgTooltip": "Upper abdomen",
+                    "hanzi": "\u4e0a\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 lower-abdomen male",
@@ -2523,7 +2671,8 @@
                     "sex": "male",
                     "parentName": "abdomen",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Lower abdomen"
+                    "svgTooltip": "Lower abdomen",
+                    "hanzi": "\u4e0b\u8179\u90e8"
                 },
                 {
                     "class": "layers layer-front-2 pelvis male",
@@ -2540,7 +2689,8 @@
                     "sex": "male",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Pelvis"
+                    "svgTooltip": "Pelvis",
+                    "hanzi": "\u9aa8\u76c6"
                 },
                 {
                     "class": "layers layer-front-2 groin-right male",
@@ -2557,7 +2707,8 @@
                     "sex": "male",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Groin"
+                    "svgTooltip": "Groin",
+                    "hanzi": "groin-right"
                 },
                 {
                     "class": "layers layer-front-2 hip-right male",
@@ -2574,7 +2725,8 @@
                     "sex": "male",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-right"
                 },
                 {
                     "class": "layers layer-front-2 hip-left male",
@@ -2591,7 +2743,8 @@
                     "sex": "male",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-left"
                 },
                 {
                     "class": "layers layer-front-2 suprapubic male",
@@ -2608,7 +2761,8 @@
                     "sex": "male",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Suprapubic <span class='tooltip-sub'><br\/> (above pubic bone)<\/span>"
+                    "svgTooltip": "Suprapubic <span class='tooltip-sub'><br\/> (above pubic bone)<\/span>",
+                    "hanzi": "\u803b\u9aa8\u5f13\u4e0a\u7684"
                 },
                 {
                     "class": "layers layer-front-2 genitals male",
@@ -2625,7 +2779,8 @@
                     "sex": "male",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Genitals"
+                    "svgTooltip": "Genitals",
+                    "hanzi": "\u751f\u6b96\u5668"
                 },
                 {
                     "class": "layers layer-front-2 groin-left male",
@@ -2642,7 +2797,8 @@
                     "sex": "male",
                     "parentName": "pelvis",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Groin"
+                    "svgTooltip": "Groin",
+                    "hanzi": "groin-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-right thigh-right male",
@@ -2659,7 +2815,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Thigh"
+                    "svgTooltip": "Thigh",
+                    "hanzi": "thigh-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-right knee-right male",
@@ -2676,7 +2833,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Knee"
+                    "svgTooltip": "Knee",
+                    "hanzi": "\u5f15\u51fa\u819d\u76d6"
                 },
                 {
                     "class": "layers layer-front-2 leg-right shin-right male",
@@ -2693,7 +2851,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shin"
+                    "svgTooltip": "Shin",
+                    "hanzi": "shin-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-right ankle-right male",
@@ -2710,7 +2869,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": " Ankle"
+                    "svgTooltip": " Ankle",
+                    "hanzi": "ankle-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-right foot-right male",
@@ -2727,7 +2887,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "\u52a8\u8f84\u5f97\u548e"
                 },
                 {
                     "class": "layers layer-front-2 leg-right toes-right male",
@@ -2744,7 +2905,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "toes-right"
                 },
                 {
                     "class": "layers layer-front-2 leg-left thigh-left male",
@@ -2761,7 +2923,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Thigh"
+                    "svgTooltip": "Thigh",
+                    "hanzi": "thigh-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left knee-left male",
@@ -2778,7 +2941,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Knee"
+                    "svgTooltip": "Knee",
+                    "hanzi": "knee-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left shin-left male",
@@ -2795,7 +2959,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shin"
+                    "svgTooltip": "Shin",
+                    "hanzi": "shin-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left ankle-left male",
@@ -2812,7 +2977,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ankle"
+                    "svgTooltip": "Ankle",
+                    "hanzi": "\u811a\u8e1d"
                 },
                 {
                     "class": "layers layer-front-2 leg-left foot-left male",
@@ -2829,7 +2995,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "foot-left"
                 },
                 {
                     "class": "layers layer-front-2 leg-left toes-left male",
@@ -2846,7 +3013,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "\u811a\u8dbe"
                 }
             ]
         },
@@ -2866,7 +3034,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Head"
+                    "svgTooltip": "Head",
+                    "hanzi": "\u5934"
                 },
                 {
                     "class": "layers layer-back-1 neck male",
@@ -2882,7 +3051,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Neck"
+                    "svgTooltip": "Neck",
+                    "hanzi": "\u8116\u5b50"
                 },
                 {
                     "class": "layers layer-back-1 back male",
@@ -2898,7 +3068,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Back"
+                    "svgTooltip": "Back",
+                    "hanzi": "\u56de\u6765"
                 },
                 {
                     "class": "layers layer-back-1 arm-left male",
@@ -2914,7 +3085,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u80f3\u818a\u7684\u8bdd"
                 },
                 {
                     "class": "layers layer-back-1 arm-right male",
@@ -2930,7 +3102,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Arms"
+                    "svgTooltip": "Arms",
+                    "hanzi": "\u624b\u81c2"
                 },
                 {
                     "class": "layers layer-back-1 buttock male",
@@ -2946,7 +3119,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Buttocks"
+                    "svgTooltip": "Buttocks",
+                    "hanzi": "\u81c0\u90e8"
                 },
                 {
                     "class": "layers layer-back-1 leg-left male",
@@ -2962,7 +3136,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u5de6\u817f\u538b"
                 },
                 {
                     "class": "layers layer-back-1 leg-right male",
@@ -2978,7 +3153,8 @@
                     "direction": "back",
                     "sex": "male",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Legs"
+                    "svgTooltip": "Legs",
+                    "hanzi": "\u7684\u817f"
                 }
             ],
             "levelTwo": [
@@ -2997,7 +3173,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "shoulder-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left upper-arm-left male",
@@ -3014,7 +3191,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper arm"
+                    "svgTooltip": "Upper arm",
+                    "hanzi": "upper-arm-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left elbow-left male",
@@ -3031,7 +3209,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "elbow-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left forearm-left male",
@@ -3048,7 +3227,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left wrist-left male",
@@ -3065,7 +3245,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left hand-inner-left male",
@@ -3082,7 +3263,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hand"
+                    "svgTooltip": "Hand",
+                    "hanzi": "hand-inner-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-left fingers-left male",
@@ -3099,7 +3281,8 @@
                     "sex": "male",
                     "parentName": "arm-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-left"
                 },
                 {
                     "class": "layers layer-back-2 arm-right shoulder-right male",
@@ -3116,7 +3299,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Shoulder"
+                    "svgTooltip": "Shoulder",
+                    "hanzi": "\u80a9\u8180\u4e56\u4e56"
                 },
                 {
                     "class": "layers layer-back-2 arm-right upper-arm-right male",
@@ -3133,7 +3317,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper arm"
+                    "svgTooltip": "Upper arm",
+                    "hanzi": "upper-arm-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right elbow-right male",
@@ -3150,7 +3335,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Elbow"
+                    "svgTooltip": "Elbow",
+                    "hanzi": "\u80f3\u818a\u8098"
                 },
                 {
                     "class": "layers layer-back-2 arm-right forearm-right male",
@@ -3167,7 +3353,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Forearm"
+                    "svgTooltip": "Forearm",
+                    "hanzi": "forearm-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right wrist-right male",
@@ -3184,7 +3371,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Wrist"
+                    "svgTooltip": "Wrist",
+                    "hanzi": "wrist-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right hand-inner-right male",
@@ -3201,7 +3389,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hand"
+                    "svgTooltip": "Hand",
+                    "hanzi": "hand-inner-right"
                 },
                 {
                     "class": "layers layer-back-2 arm-right fingers-right male",
@@ -3218,7 +3407,8 @@
                     "sex": "male",
                     "parentName": "arm-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Fingers"
+                    "svgTooltip": "Fingers",
+                    "hanzi": "fingers-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-left hamstring-left male",
@@ -3235,7 +3425,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hamstring"
+                    "svgTooltip": "Hamstring",
+                    "hanzi": "hamstring-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left popliteal-left male",
@@ -3252,7 +3443,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>"
+                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>",
+                    "hanzi": "popliteal-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left calf-left male",
@@ -3269,7 +3461,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Calf"
+                    "svgTooltip": "Calf",
+                    "hanzi": "calf-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left ankle-left male",
@@ -3286,7 +3479,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ankle"
+                    "svgTooltip": "Ankle",
+                    "hanzi": "\u811a\u8e1d"
                 },
                 {
                     "class": "layers layer-back-2 leg-left foot-left male",
@@ -3303,7 +3497,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "foot-left"
                 },
                 {
                     "class": "layers layer-back-2 leg-left toes-left male",
@@ -3320,7 +3515,8 @@
                     "sex": "male",
                     "parentName": "leg-left",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "\u811a\u8dbe"
                 },
                 {
                     "class": "layers layer-back-2 leg-right hamstring-right male",
@@ -3337,7 +3533,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hamstring"
+                    "svgTooltip": "Hamstring",
+                    "hanzi": "\u7684\u7b4b"
                 },
                 {
                     "class": "layers layer-back-2 leg-right popliteal-right male",
@@ -3354,7 +3551,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>"
+                    "svgTooltip": "Popliteal <span class='tooltip-sub'><br\/>(Back of Knee)<\/span>",
+                    "hanzi": "popliteal-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-right calf-right male",
@@ -3371,7 +3569,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Calf"
+                    "svgTooltip": "Calf",
+                    "hanzi": "calf-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-right ankle-right male",
@@ -3388,7 +3587,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Ankle"
+                    "svgTooltip": "Ankle",
+                    "hanzi": "ankle-right"
                 },
                 {
                     "class": "layers layer-back-2 leg-right foot-right male",
@@ -3405,7 +3605,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Foot"
+                    "svgTooltip": "Foot",
+                    "hanzi": "\u52a8\u8f84\u5f97\u548e"
                 },
                 {
                     "class": "layers layer-back-2 leg-right toes-right male",
@@ -3422,7 +3623,8 @@
                     "sex": "male",
                     "parentName": "leg-right",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Toes"
+                    "svgTooltip": "Toes",
+                    "hanzi": "toes-right"
                 },
                 {
                     "class": "layers layer-back-2 buttock tailbone male",
@@ -3439,7 +3641,8 @@
                     "sex": "male",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Tailbone"
+                    "svgTooltip": "Tailbone",
+                    "hanzi": "\u5c3e\u690e\u9aa8"
                 },
                 {
                     "class": "layers layer-back-2 buttock hip-left male",
@@ -3456,7 +3659,8 @@
                     "sex": "male",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-left"
                 },
                 {
                     "class": "layers layer-back-2 buttock hip-right male",
@@ -3473,7 +3677,8 @@
                     "sex": "male",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Hip"
+                    "svgTooltip": "Hip",
+                    "hanzi": "hip-right"
                 },
                 {
                     "class": "layers layer-back-2 buttock buttock-inner male",
@@ -3490,7 +3695,8 @@
                     "sex": "male",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Buttocks"
+                    "svgTooltip": "Buttocks",
+                    "hanzi": "buttock-inner"
                 },
                 {
                     "class": "layers layer-back-2 buttock rectum male",
@@ -3507,7 +3713,8 @@
                     "sex": "male",
                     "parentName": "buttock",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Rectum"
+                    "svgTooltip": "Rectum",
+                    "hanzi": "\u76f4\u80a0"
                 },
                 {
                     "class": "layers layer-back-2 back back-upper male",
@@ -3524,7 +3731,8 @@
                     "sex": "male",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Upper Back"
+                    "svgTooltip": "Upper Back",
+                    "hanzi": "\u5907\u7528"
                 },
                 {
                     "class": "layers layer-back-2 back back-inner male",
@@ -3541,7 +3749,8 @@
                     "sex": "male",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Back"
+                    "svgTooltip": "Back",
+                    "hanzi": "\u540e\u7aef"
                 },
                 {
                     "class": "layers layer-back-2 back back-lower male",
@@ -3558,7 +3767,8 @@
                     "sex": "male",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Lower back"
+                    "svgTooltip": "Lower back",
+                    "hanzi": "back-lower"
                 },
                 {
                     "class": "layers layer-back-2 back flank-left male",
@@ -3575,7 +3785,8 @@
                     "sex": "male",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Flank"
+                    "svgTooltip": "Flank",
+                    "hanzi": "\u5de6\u7ffc"
                 },
                 {
                     "class": "layers layer-back-2 back flank-right male",
@@ -3592,7 +3803,8 @@
                     "sex": "male",
                     "parentName": "back",
                     "fillRule": "evenodd",
-                    "svgTooltip": "Flank"
+                    "svgTooltip": "Flank",
+                    "hanzi": "\u53f3\u7ffc"
                 }
             ]
         }

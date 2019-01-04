@@ -33,7 +33,7 @@
             v-for="(item,indexs) in levelThree"
             clickable
             :key="indexs"
-            :title="item.Name"
+            :title="item.Name+'('+item.hanzi+')'"
           >
             <van-checkbox :name="item" ref="checkboxes-map"/>
           </van-cell>
@@ -53,7 +53,7 @@
               v-for="(item,indexs) in choosedSymptom"
               clickable
               :key="indexs"
-              :title="item.Name"
+              :title="item.Name+'('+item.hanzi+')'"
             >
               <van-checkbox :name="item"/>
             </van-cell>
@@ -72,7 +72,7 @@
         <div v-if="showLevelOne">
           <div v-for="(value,index) in getLevelOneData" :key="index">
             <div class="cell-link van-hairline--bottom" @click="getLeverTwo(value)">
-              <div class="popup-cell-title">{{value.name}}</div>
+              <div class="popup-cell-title">{{value.name}}({{value.hanzi}})</div>
               <van-icon name="arrow" color="#333" size="14px"></van-icon>
             </div>
           </div>
@@ -88,7 +88,7 @@
                 v-for="(item,indexs) in levelThreeData"
                 clickable
                 :key="indexs"
-                :title="item.Name"
+                :title="item.Name+'('+item.hanzi+')'"
               >
                 <van-checkbox :name="item" ref="checkboxes-three"/>
               </van-cell>
@@ -100,7 +100,7 @@
               v-for="(value,index) in getLevelTwoData"
               clickable
               :key="index"
-              :title="value.name"
+              :title="value.name+'('+value.hanzi+')'"
               @click="getLeverThree(value)"
             >
             <van-icon name="arrow" color="#333" size="14px"></van-icon>
@@ -117,7 +117,7 @@
               v-for="(item,indexs) in levelThreeData"
               clickable
               :key="indexs"
-              :title="item.Name"
+              :title="item.Name+'('+item.hanzi+')'"
             >
               <van-checkbox :name="item" ref="checkboxes-three"/>
             </van-cell>
