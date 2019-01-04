@@ -47,7 +47,7 @@
         <div class="popup-cell-title">已选病症</div>
         <van-icon name="cross" color="#fff" @click="choosedSymptomShow=false"></van-icon>
       </div>
-      <van-checkbox-group v-model="choosedSymptom">
+      <van-checkbox-group v-model="lastChoosedSymptom">
           <van-cell-group>
             <van-cell
               v-for="(item,indexs) in choosedSymptom"
@@ -55,10 +55,11 @@
               :key="indexs"
               :title="item.Name"
             >
-              <van-checkbox :name="item.Name" v-model="item.checked"/>
+              <van-checkbox :name="item"/>
             </van-cell>
           </van-cell-group>
         </van-checkbox-group>
+        <button class="next-but" v-if="lastChoosedSymptom" @click="searchSymptom">查询病症</button>
     </van-popup>
     <!-- 全部病症弹层 -->
     <van-popup v-model='allSymptomShow' position="bottom" :overlay="false" :lock-scroll="false" ref="all-symptom-show">
@@ -178,7 +179,8 @@ export default {
       levelTwoData:[],
       levelThreeData:[],
       levelThreeDataChecked:[],
-      levelThreeMapChecked:[]
+      levelThreeMapChecked:[],
+      lastChoosedSymptom:[]
     };
   },
   mounted() {
@@ -193,6 +195,9 @@ export default {
     this.svg=this.initSvg(sex,deriction,this.svg.viewBox,this.svg.preserveAspectRatio)
   },
   methods: {
+    searchSymptom(){
+      console.log(this.lastChoosedSymptom)
+    },
     showAllSympptom(){
       this.allSymptomShow=true;
       this.showLevelOne=true;
