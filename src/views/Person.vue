@@ -446,6 +446,7 @@ export default {
 .body-image .contro span font{
   color:#FFFFFF;
   font-size: 0.5em;
+  text-align: center;
 }
 .body-image .contro span i,font{
   color:#FFFFFF;
