@@ -1,8 +1,7 @@
 <template>
   <div class="person-svg">
-    <!-- <van-button type="primary" @click="turn()">正反转换</van-button> -->
-    <div style="position:absolute;top:20px;right:20px;background:#fff;width:30px;height:30px;line-height:30px;text-align:center;border-radius:5px;">
-      <van-icon name="exchange" color="#f34c4c" @click="turn" size="20px"></van-icon>
+    <div class="turn-face" @click="turn">
+      <img src="../assets/img/turn.png">
     </div>
     <!-- 人体svg热区图  -->
     <svg
@@ -11,7 +10,7 @@
       y="0px"
       viewBox="0 0 310 385"
       style="width:100%"
-      v-bind:preserveAspectRatio="preserveAspectRatio?'xMidYMid slice':''"
+      v-bind:preserveAspectRatio="preserveAspectRatio?'xMidYMax slice':''"
       xml:space="preserve"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,20 +25,23 @@
         opacity=".85"
         v-bind:d="value.d"
         v-bind:transform="value.transform"
-        @click="getLevelTwo('HEAD_1',value.level)"
+        @click="getLevelTwo(value.code,value.level)"
       ></path>
     </svg>
 
     <!-- 人体部位层级数据 -->
-    <van-popup v-model="show" position="bottom" :overlay="false" :lock-scroll="false" ref="popup">
+    <van-popup v-model="show" position="bottom" :overlay="false" :lock-scroll="false">
       <div class="popup-cell">
         <div class="popup-cell-title">请选择您的症状</div>
         <van-icon name="cross" color="#fff" @click="hideMenu"></van-icon>
       </div>
 
-      <div class="popup-body">
+      <div class="popup-body" v-bind:style="{height:clientHeight*0.3-40+'px'}" ref="popupBody">
+        <div v-if="!showNext && levelTwo.length == 0" class="data-null">
+          <img src="../assets/img/data-null.png">
+        </div>
         <!-- 二级菜单 -->
-        <div v-if="!showNext" v-for="(value,index) in levelTwo" :key="index">
+        <div v-if="!showNext && levelTwo.length > 0 " v-for="(value,index) in levelTwo" :key="index">
           <div class="cell-link van-hairline--bottom" @click="getLevelThree(value.code)">
             <div class="popup-cell-title">{{value.name}}</div>
             <van-icon name="arrow" color="#333" size="14px"></van-icon>
@@ -48,9 +50,13 @@
 
         <!-- 返回二级菜单 -->
         <div v-if="showNext" class="level-one" @click="backLevel">
-          <van-icon name="arrow-left" color="#1e84d8" size="16px"></van-icon>返回
+          <van-icon name="arrow-left" color="#1e84d8" size="14px"></van-icon>返回上级
         </div>
-        <!-- 三级菜单 -->
+        <div v-if="showNext && levelThree.length == 0" class="data-null">
+          <img src="../assets/img/data-null.png">
+        </div>
+        <div v-if="showNext && levelThree.length > 0">
+          <!-- 三级菜单 -->
         <van-checkbox-group v-model="checkResult" v-if="showNext">
           <van-cell-group>
             <van-cell
@@ -60,17 +66,19 @@
               :title="item.name"
               @click="toggle(indexs)"
             >
-              <van-checkbox :name="item" ref="checkboxes"/>
+              <van-checkbox :name="item" checked-color="#0E7BC3" shape="square" ref="checkboxes"/>
             </van-cell>
           </van-cell-group>
         </van-checkbox-group>
-        <button class="next-but" v-if="showNext">下一步</button>
+        <button class="next-but" v-if="levelThree.length>0" @click="nextSearch">下一步</button>
+        </div>
+        
       </div>
     </van-popup>
   </div>
 </template>
 <script>
-import svgPath from "../../public/json/svgPath";
+import svgPath from ".././assets/json/svgPath";
 import {
   Popup,
   Toast,
@@ -97,28 +105,31 @@ export default {
       showNext: false,
       sexType: "male",
       faceType: "front",
+      clientHeight: 0,
       preserveAspectRatio: false,
       pathList: [],
       levelTwo: [],
       levelThree: [],
       checkResult: [],
-      imgPath: require("../assets/male-f.png")
+      imgPath: require("../assets/img/male-f.png")
     };
   },
 
   mounted() {
     this.faceType = "front";
-
-    if (this.$route.query.sexType == "male" || this.$route.query.sexType == undefined) {
-      this.sexType = this.$route.query.sexType;
-      this.imgPath = require("../assets/male-f.png");
+    this.clientHeight = this.$el.clientHeight
+    if (
+      this.$route.query.gender == "male" ||
+      this.$route.query.gender == undefined
+    ) {
+      this.sexType = "male";
+      this.imgPath = require("../assets/img/male-f.png");
       this.pathList = svgPath.male.front.levelOne;
     } else {
-      this.sexType = this.$route.query.sexType;
-      this.imgPath = require("../assets/female-f.png");
+      this.sexType = "female";
+      this.imgPath = require("../assets/img/female-f.png");
       this.pathList = svgPath.female.front.levelOne;
     }
-
   },
 
   methods: {
@@ -131,15 +142,13 @@ export default {
       this.preserveAspectRatio = false;
     },
     getLevelTwo(paramName, level) {
-      console.log(this.$refs.popup.$el);
       this.showNext = false;
-      fetch(
-        "http://cm.changrentech.com:8092/bodyparts.do?parentCode=" + paramName
-      )
+      fetch("http://39.96.15.44:8092/bodyparts.do?parentCode=" + paramName)
         .then(response => response.json())
         .then(res => {
           this.show = true;
           this.levelTwo = res.result;
+          this.preserveAspectRatio = true;
         })
         .catch(err => {
           this.$toast({
@@ -151,16 +160,16 @@ export default {
         });
     },
     getLevelThree(paramName) {
+      let sexType = this.sexType
+      let faceType = this.faceType
+      this.$refs.popupBody.scrollTop = 0
       fetch(
-        "http://cm.changrentech.com:8092/symptoms/symptomsList?code=" +
-          paramName +
-          "&iscommon=false"
+        "http://39.96.15.44:8092/symptoms/symptomsList?bodypartName="+paramName+"&sex="+sexType+"&isfront="+faceType+"&iscommon=true"
       )
         .then(response => response.json())
         .then(res => {
-          console.log(res.result);
-          this.levelThree = res.result;
           this.showNext = true;
+          this.levelThree = res.result;
         })
         .catch(err => {
           this.$toast({
@@ -177,41 +186,73 @@ export default {
     turn() {
       this.show = false;
       this.showNext = false;
+      this.preserveAspectRatio = false;
       let sexType = this.sexType;
       let faceType = this.faceType;
       if (faceType == "front") {
         this.faceType = "back";
-        this.imgPath = require("../assets/" + sexType + "-b.png");
+        this.imgPath = require("../assets/img/" + sexType + "-b.png");
         let pathf = svgPath[sexType][this.faceType];
         this.pathList = pathf.levelOne;
       } else {
         this.faceType = "front";
-        this.imgPath = require("../assets/" + sexType + "-f.png");
+        this.imgPath = require("../assets/img/" + sexType + "-f.png");
         let pathb = svgPath[sexType][this.faceType];
         this.pathList = pathb.levelOne;
+      }
+    },
+    nextSearch() {
+      let andParams = {};
+      andParams["data"] = this.checkResult;
+      let iosParams = {
+        "method": "symptomSelect",
+        "params": andParams
+      }
+      var ua = navigator.userAgent.toLowerCase();
+      if (/iphone|ipad|ipod/.test(ua)) {
+        window.webkit.messageHandlers.utils.postMessage(JSON.stringify(iosParams));
+      } else if (/android/.test(ua)) {
+        window.jsNativeObj.getSymptomsSelected(JSON.stringify(andParams))
       }
     }
   }
 };
 </script>
+
 <style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  position: relative;
 }
-
+.turn-face {
+  position: fixed;
+  top: 108px;
+  right: 20px;
+  background: #02355F;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  z-index:1000;
+  img{
+    width: 21px;
+    height: 21px;
+  }
+}
 .person-svg {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/svgBg.png");
+  background: url("../assets/img/svgBg.png");
   background-size: cover;
+  position: relative;
 }
 #full-body {
   display: block;
-  height: 96%;
+  height: 100%;
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
   -moz-transition: width 0.5s;
@@ -234,16 +275,16 @@ export default {
 
 .van-popup {
   height: 30%;
-  // overflow-y: hidden;
+  overflow-y: hidden;
   .popup-body {
     overflow-y: auto;
-    // height: 100%;
+    height: 100%;
   }
 }
 .level-one {
-  font-size: 16px;
-  color: #1e84d8;
-  line-height: 45px;
+  font-size: 14px;
+  color: #0E7BC3;
+  line-height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -253,16 +294,16 @@ export default {
 }
 .popup-cell {
   width: 100%;
-  height: 45px;
+  height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background: #1e84d8;
+  background: #0E7BC3;
   box-sizing: border-box;
   .popup-cell-title {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
   }
 }
@@ -285,15 +326,24 @@ export default {
 
 .next-but {
   width: 80%;
-  height: 45px;
-  line-height: 45px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
-  background: #1e84d8;
+  background: #0E7BC3;
   color: #fff;
-  border: 1px solid #1e84d8;
+  border: 1px solid #0E7BC3;
   box-sizing: border-box;
   border-radius: 8px;
   font-size: 16px;
   margin: 10px auto;
+}
+
+.data-null{
+  width: 100%;
+  img{
+    margin-top: 30px;
+    width: 53px;
+    height: 49px;
+  }
 }
 </style>
