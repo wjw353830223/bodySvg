@@ -452,6 +452,10 @@ export default {
   color:#FFFFFF;
   font-size: 1em;
 }
+.van-popup{
+  overflow-y: scroll;
+  text-align: center;
+}
 #full-body {
   display: block;
   width:100%;
