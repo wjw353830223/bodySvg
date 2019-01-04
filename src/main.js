@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
 import 'amfe-flexible'
-
+import '@/assets/fonts/iconfont.css'
 Vue.config.productionTip = false
 
 new Vue({

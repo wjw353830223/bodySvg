@@ -6,22 +6,21 @@
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style>
+/* *, ::after, ::before {
+    box-sizing: inherit;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+body {
+    color: #444;
+    font-family: "Source Sans Pro",Verdana,sans-serif;
+    font-size: 1.313rem;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: -.013em;
 }
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+} */
 </style>
